@@ -13,7 +13,7 @@ export default function ContactPage() {
     e.preventDefault()
     setStatus('sending')
     try {
-      const res = await fetch('YOUR_N8N_WEBHOOK_URL_HERE', {
+      const res = await fetch('https://n8n.getoutloop.cloud/webhook/getoutloop-contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -84,7 +84,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <label htmlFor="service" className={labelClass}>Service Interest</label>
-                  <select id="service" name="service" value={formData.service} onChange={handleChange} className={`${inputClass} bg-[#0D1429]`}>
+                  <select id="service" name="service" value={formData.service} onChange={handleChange} className={`${inputClass} bg-[#0D1429]`} style={{ colorScheme: 'dark' }}>
                     <option value="">Select a service...</option>
                     <option value="seo-geo-consulting">SEO / GEO Consulting</option>
                     <option value="ai-automation">AI Automation</option>
