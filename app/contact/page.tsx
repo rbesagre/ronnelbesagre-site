@@ -13,7 +13,7 @@ export default function ContactPage() {
     e.preventDefault()
     setStatus('sending')
     try {
-      const res = await fetch('https://n8n.getoutloop.cloud/webhook-test/getoutloop-contact', {
+      const res = await fetch('https://n8n.getoutloop.cloud/webhook/getoutloop-contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -159,6 +159,26 @@ export default function ContactPage() {
                   <span className="text-[#00FF9D]">✓</span>
                   <span className="text-[#B0B8C8] text-sm">I respond within 24 hours</span>
                 </div>
+              </div>
+
+              <div className="glass-card p-6" style={{ border: '1px solid rgba(0,168,255,0.3)', background: 'linear-gradient(135deg, rgba(0,168,255,0.08) 0%, rgba(0,255,157,0.05) 100%)' }}>
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="text-xl">📅</span>
+                  <h3 className="font-syne font-bold text-white text-sm">Book A Discovery Call</h3>
+                </div>
+                <p className="text-[#B0B8C8] text-xs mb-4 leading-relaxed">
+                  Prefer to talk first? Book a free 30-minute GEO Audit Walkthrough — I&apos;ll review your AI visibility live on the call.
+                </p>
+                <a
+                  href="https://calendly.com/ronnelbesagre/geo-audit-walkthrough"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full text-center py-2.5 px-4 rounded-xl text-sm font-semibold transition-all duration-200"
+                  style={{ background: 'linear-gradient(135deg, #00A8FF, #00FF9D)', color: '#0A0E27' }}
+                >
+                  Book Free Discovery Call →
+                </a>
+                <p className="text-center text-xs text-[#B0B8C8]/50 mt-2">No commitment · 30 minutes · Via Zoom</p>
               </div>
 
               <div className="glass-card p-5">
