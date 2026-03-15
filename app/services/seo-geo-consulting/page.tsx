@@ -20,6 +20,28 @@ const serviceSchema = {
   url: 'https://ronnelbesagre.com/services/seo-geo-consulting',
 }
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'How is GEO different from SEO?',
+      acceptedAnswer: { '@type': 'Answer', text: 'SEO targets Google\'s blue-link ranking algorithm. GEO targets AI citation systems — the underlying models that decide what to include in AI-generated answers from ChatGPT, Perplexity, and Google AI Overviews.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'How long does GEO take to show results?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Technical improvements (structured data, robots.txt, llms.txt) show within 2-4 weeks. Consistent AI citations typically appear within 3-6 months. Full topical authority takes 6-12 months.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'Do I need GEO if my SEO is already strong?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Yes. Good SEO does not guarantee AI citations. GEO requires additional signals: AI crawler access, entity clarity, E-E-A-T author markup, and structured data that standard SEO tools don\'t check.' },
+    },
+  ],
+}
+
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
@@ -35,6 +57,7 @@ export default function SEOGEOConsultingPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       <section className="relative pt-28 pb-16 overflow-hidden">
         <div className="absolute inset-0 bg-grid-pattern pointer-events-none" aria-hidden="true" />

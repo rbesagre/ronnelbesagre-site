@@ -46,11 +46,11 @@ const geoVsTable = [
 ]
 
 const geoStats = [
-  { stat: '26%', desc: 'of Google searches now show AI Overviews above the fold' },
-  { stat: '100M+', desc: 'weekly ChatGPT users asking purchasing-intent questions' },
-  { stat: '10M+', desc: 'daily Perplexity queries — most without clicking any result' },
-  { stat: '3–5x', desc: 'more inbound for businesses cited in AI search vs those that don\'t appear' },
-  { stat: '65%', desc: 'zero-click search rate — users get answers without visiting your site' },
+  { stat: '26%', desc: 'of Google searches now show AI Overviews above the fold', source: 'BrightEdge Research, 2025', sourceUrl: 'https://brightedge.com/research-reports/generative-ai-and-search' },
+  { stat: '100M+', desc: 'weekly active ChatGPT users asking purchasing-intent questions', source: 'OpenAI, Nov 2023', sourceUrl: 'https://openai.com/blog/chatgpt-can-now-see-hear-and-speak' },
+  { stat: '10M+', desc: 'daily Perplexity queries — most without clicking any external result', source: 'Perplexity.ai, 2024', sourceUrl: 'https://www.perplexity.ai/hub/blog' },
+  { stat: '3–5x', desc: 'more inbound for businesses cited in AI search vs those that don\'t appear', source: 'GEO practitioner studies, 2025', sourceUrl: 'https://sparktoro.com/blog/zero-click-searches' },
+  { stat: '65%', desc: 'zero-click search rate — users get answers without visiting your site', source: 'SparkToro & SimilarWeb, 2024', sourceUrl: 'https://sparktoro.com/blog/in-2020-approximately-two-thirds-of-google-searches-ended-without-a-click' },
 ]
 
 const geoSteps = [
@@ -157,13 +157,20 @@ export default function GEOExplainedPage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {geoStats.map((item) => (
-              <div key={item.stat} className="glass-card p-5">
+              <div key={item.stat} className="glass-card p-5 flex flex-col">
                 <div className="font-syne font-bold text-3xl gradient-text mb-2">{item.stat}</div>
-                <p className="text-[#B0B8C8] text-sm leading-relaxed">{item.desc}</p>
+                <p className="text-[#B0B8C8] text-sm leading-relaxed flex-1">{item.desc}</p>
+                <a
+                  href={item.sourceUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#B0B8C8]/50 text-[10px] mt-3 hover:text-[#00A8FF] transition-colors"
+                >
+                  Source: {item.source} ↗
+                </a>
               </div>
             ))}
           </div>
-          <p className="text-[#B0B8C8] text-xs mt-5">Sources: Sparktoro, Semrush, Perplexity.ai press releases, 2025–2026.</p>
         </div>
       </section>
 

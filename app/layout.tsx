@@ -149,6 +149,54 @@ const websiteSchema = {
   author: { '@id': 'https://ronnelbesagre.com/#ronnel' },
 }
 
+const localBusinessSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfessionalService',
+  '@id': 'https://ronnelbesagre.com/#business',
+  name: 'Ronnel Besagre Consulting',
+  url: 'https://ronnelbesagre.com',
+  image: 'https://ronnelbesagre.com/ronnel-besagre.png',
+  description:
+    'SEO/GEO consulting and AI Automation services for APAC businesses. Helping brands get found in Google and cited in AI search engines like ChatGPT, Perplexity, and Gemini.',
+  founder: { '@id': 'https://ronnelbesagre.com/#ronnel' },
+  telephone: '+60174980981',
+  email: 'rbesagre@gmail.com',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Johor Bahru',
+    addressRegion: 'Johor',
+    addressCountry: 'MY',
+    postalCode: '80000',
+  },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: 1.4927,
+    longitude: 103.7414,
+  },
+  areaServed: [
+    { '@type': 'Country', name: 'Malaysia' },
+    { '@type': 'Country', name: 'Singapore' },
+    { '@type': 'Country', name: 'Philippines' },
+    { '@type': 'AdministrativeArea', name: 'APAC' },
+  ],
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: 'SEO/GEO & AI Automation Services',
+    itemListElement: [
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'SEO/GEO Consulting', url: 'https://ronnelbesagre.com/services/seo-geo-consulting' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'AI Automation', url: 'https://ronnelbesagre.com/services/ai-automation' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'AIDC Expert Advisory', url: 'https://ronnelbesagre.com/services/aidc-expert' } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'NLP Coaching', url: 'https://ronnelbesagre.com/services/nlp-coaching' } },
+    ],
+  },
+  priceRange: '$$',
+  openingHours: 'Mo-Fr 09:00-18:00',
+  sameAs: [
+    'https://www.linkedin.com/in/ronnelbesagredotcom',
+    'https://getoutloop.com',
+  ],
+}
+
 export default function RootLayout({
   children,
 }: {
@@ -164,6 +212,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
         />
       </head>
       <body className="bg-[#0A0E27] text-white antialiased">

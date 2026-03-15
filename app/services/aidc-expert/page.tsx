@@ -8,9 +8,33 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://ronnelbesagre.com/services/aidc-expert' },
 }
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'What is AIDC technology?',
+      acceptedAnswer: { '@type': 'Answer', text: 'AIDC (Automatic Identification and Data Capture) is a category of technologies used to automatically identify objects and collect data without manual input. It includes barcodes, RFID, smart cards, biometrics, and ID card personalization systems — widely used in retail, logistics, healthcare, and government ID programs.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What AIDC services does Ronnel Besagre offer?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Ronnel offers advisory for barcode system design (1D/2D), RFID architecture (UHF/HF/LF), ID card personalization (Matica, Zebra), APAC vendor evaluation, and technical support for multi-country deployments across Malaysia, Singapore, and Philippines.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'Which APAC markets does Ronnel Besagre serve for AIDC projects?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Ronnel has 24+ years of hands-on AIDC project experience across Malaysia, Singapore, Philippines, and broader Southeast Asia. He has delivered technical projects for enterprises in all three markets and supports remote engagements worldwide.' },
+    },
+  ],
+}
+
 export default function AIDCExpertPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+
       <section className="relative pt-28 pb-16 overflow-hidden">
         <div className="absolute inset-0 bg-grid-pattern pointer-events-none" aria-hidden="true" />
         <div className="section-container relative z-10">
@@ -76,6 +100,24 @@ export default function AIDCExpertPage() {
           <div className="mt-10">
             <Link href="/contact" className="btn-primary px-8 py-3">Schedule a Consultation</Link>
           </div>
+        </div>
+      </section>
+
+      <section className="section-padding bg-[#0D1429]" aria-labelledby="aidc-faq">
+        <div className="section-container max-w-3xl">
+          <h2 id="aidc-faq" className="font-syne font-bold text-2xl text-white mb-7">Frequently Asked Questions</h2>
+          <dl className="space-y-6">
+            {[
+              { q: 'What is AIDC technology?', a: 'AIDC (Automatic Identification and Data Capture) is a category of technologies used to automatically identify objects and collect data without manual input. It includes barcodes, RFID, smart cards, biometrics, and ID card personalization systems — widely used in retail, logistics, healthcare, and government ID programs.' },
+              { q: 'What AIDC services do you offer?', a: 'I provide advisory for barcode system design (1D/2D), RFID architecture (UHF/HF/LF), ID card personalization (Matica, Zebra), APAC vendor evaluation, and technical support for multi-country deployments across Malaysia, Singapore, and Philippines.' },
+              { q: 'Which APAC markets do you serve for AIDC projects?', a: 'I have 24+ years of hands-on AIDC project experience across Malaysia, Singapore, Philippines, and broader Southeast Asia. I have delivered technical projects for enterprises in all three markets and support remote engagements worldwide.' },
+            ].map(({ q, a }) => (
+              <div key={q}>
+                <dt className="font-syne font-semibold text-white mb-2">{q}</dt>
+                <dd className="text-[#B0B8C8] text-sm leading-relaxed">{a}</dd>
+              </div>
+            ))}
+          </dl>
         </div>
       </section>
     </>

@@ -87,7 +87,11 @@ export default function WhatIsGEOPost() {
                 Search has fundamentally changed. When someone asks ChatGPT &quot;What&apos;s the best GEO agency in Malaysia?&quot; or Perplexity &quot;Who is the leading AI automation specialist in APAC?&quot; — those AI systems don&apos;t consult Google&apos;s ranking algorithm. They draw from their training data and real-time web access to form citations.
               </p>
               <p className="mt-4">
-                Traditional SEO optimizes your chances of appearing in Google&apos;s blue-link results. GEO optimizes your chances of being cited — by name, with your URL — in AI-generated responses across every major AI platform. In 2026, with 65% zero-click search rates and 100M+ weekly ChatGPT users, GEO has moved from &quot;nice to have&quot; to mission-critical.
+                Traditional SEO optimizes your chances of appearing in Google&apos;s blue-link results. GEO optimizes your chances of being cited — by name, with your URL — in AI-generated responses across every major AI platform. In 2026, with{' '}
+                <a href="https://sparktoro.com/blog/zero-click-searches" target="_blank" rel="noopener noreferrer" className="text-[#00A8FF] hover:underline">65% zero-click search rates</a>
+                {' '}(SparkToro, 2024) and{' '}
+                <a href="https://openai.com/blog/chatgpt-can-now-see-hear-and-speak" target="_blank" rel="noopener noreferrer" className="text-[#00A8FF] hover:underline">100M+ weekly ChatGPT users</a>
+                {' '}(OpenAI, 2023), GEO has moved from &quot;nice to have&quot; to mission-critical.
               </p>
             </section>
 

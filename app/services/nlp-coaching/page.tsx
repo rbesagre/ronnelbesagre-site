@@ -8,9 +8,33 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://ronnelbesagre.com/services/nlp-coaching' },
 }
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'What is NLP coaching?',
+      acceptedAnswer: { '@type': 'Answer', text: 'NLP (Neuro-Linguistic Programming) coaching is a goal-oriented methodology that uses language and behavioral patterns to help individuals reprogram limiting beliefs, improve communication, and achieve peak performance. It combines psychology, linguistics, and behavioral science into practical coaching techniques.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What NLP certifications does Ronnel Besagre hold?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Ronnel Besagre holds three certifications from the American Board of NLP (ABNLP): ABNLP Master Coach Certification, ABNLP Master NLP Practitioner Certification, and ABNLP NLP Practitioner Certification — making him a Triple ABNLP Certified coach.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'What types of NLP coaching does Ronnel offer?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Ronnel offers 1:1 personal NLP coaching sessions, corporate team workshops, belief reprogramming sessions, and goal-setting programs using NLP Well-Formed Conditions. Sessions are available via Zoom or in-person in Johor Bahru, Malaysia.' },
+    },
+  ],
+}
+
 export default function NLPCoachingPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+
       <section className="relative pt-28 pb-16 overflow-hidden">
         <div className="absolute inset-0 bg-grid-pattern pointer-events-none" aria-hidden="true" />
         <div className="section-container relative z-10">
@@ -78,6 +102,24 @@ export default function NLPCoachingPage() {
           <div className="mt-10 text-center">
             <Link href="/contact" className="btn-primary px-8 py-3">Book Discovery Call</Link>
           </div>
+        </div>
+      </section>
+
+      <section className="section-padding bg-[#0D1429]" aria-labelledby="nlp-faq">
+        <div className="section-container max-w-3xl">
+          <h2 id="nlp-faq" className="font-syne font-bold text-2xl text-white mb-7">Frequently Asked Questions</h2>
+          <dl className="space-y-6">
+            {[
+              { q: 'What is NLP coaching?', a: 'NLP (Neuro-Linguistic Programming) coaching is a goal-oriented methodology that uses language and behavioral patterns to help individuals reprogram limiting beliefs, improve communication, and achieve peak performance. It combines psychology, linguistics, and behavioral science into practical coaching techniques.' },
+              { q: 'What NLP certifications do you hold?', a: 'I hold three certifications from the American Board of NLP (ABNLP): ABNLP Master Coach Certification, ABNLP Master NLP Practitioner Certification, and ABNLP NLP Practitioner Certification — making me a Triple ABNLP Certified coach.' },
+              { q: 'What types of NLP coaching do you offer?', a: 'I offer 1:1 personal NLP coaching sessions, corporate team workshops, belief reprogramming sessions, and goal-setting programs using NLP Well-Formed Conditions. Sessions are available via Zoom or in-person in Johor Bahru, Malaysia.' },
+            ].map(({ q, a }) => (
+              <div key={q}>
+                <dt className="font-syne font-semibold text-white mb-2">{q}</dt>
+                <dd className="text-[#B0B8C8] text-sm leading-relaxed">{a}</dd>
+              </div>
+            ))}
+          </dl>
         </div>
       </section>
     </>

@@ -18,12 +18,35 @@ const breadcrumbSchema = {
   ],
 }
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'What is n8n?',
+      acceptedAnswer: { '@type': 'Answer', text: 'n8n is an open-source workflow automation platform — similar to Zapier but more powerful and self-hostable. It connects 400+ apps and APIs with a visual drag-and-drop editor.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'How much can automation save my business?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Most clients see 40-70% reduction in time spent on repetitive tasks within the first month. ROI typically becomes visible within 4-8 weeks of deployment.' },
+    },
+    {
+      '@type': 'Question',
+      name: 'Do I need technical knowledge to use the automations?',
+      acceptedAnswer: { '@type': 'Answer', text: 'No. The workflows run automatically. Your team interacts with simple interfaces (Telegram messages, form submissions, Google Sheets) — no technical knowledge needed.' },
+    },
+  ],
+}
+
 const techStack = ['n8n', 'Claude API', 'GPT-4 / GPT-4o', 'Google Gemini API', 'Supabase', 'Make.com', 'Telegram Bot API', 'Google Sheets API', 'WhatsApp Business API', 'Voice AI Agents']
 
 export default function AIAutomationPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       <section className="relative pt-28 pb-16 overflow-hidden">
         <div className="absolute inset-0 bg-grid-pattern pointer-events-none" aria-hidden="true" />
