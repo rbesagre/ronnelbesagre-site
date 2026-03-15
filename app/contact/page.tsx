@@ -13,7 +13,7 @@ export default function ContactPage() {
     e.preventDefault()
     setStatus('sending')
     try {
-      const res = await fetch('https://n8n.getoutloop.cloud/webhook/getoutloop-contact', {
+      const res = await fetch('https://n8n.getoutloop.cloud/webhook-test/getoutloop-contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -84,14 +84,20 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <label htmlFor="service" className={labelClass}>Service Interest</label>
-                  <select id="service" name="service" value={formData.service} onChange={handleChange} className={`${inputClass} bg-[#0D1429]`} style={{ colorScheme: 'dark' }}>
-                    <option value="">Select a service...</option>
-                    <option value="seo-geo-consulting">SEO / GEO Consulting</option>
-                    <option value="ai-automation">AI Automation</option>
-                    <option value="aidc-expert">AIDC Expert Advisory</option>
-                    <option value="nlp-coaching">NLP Coaching</option>
-                    <option value="ai-visibility-audit">AI Visibility Audit (Free)</option>
-                    <option value="not-sure">Not sure — help me decide</option>
+                  <select id="service" name="service" value={formData.service} onChange={handleChange} className={`${inputClass} bg-[#0D1429]`} style={{ colorScheme: 'dark', backgroundColor: '#0D1429', color: 'white' }}>
+                    {[
+                      { value: '', label: 'Select a service...' },
+                      { value: 'seo-geo-consulting', label: 'SEO / GEO Consulting' },
+                      { value: 'ai-automation', label: 'AI Automation' },
+                      { value: 'aidc-expert', label: 'AIDC Expert Advisory' },
+                      { value: 'nlp-coaching', label: 'NLP Coaching' },
+                      { value: 'ai-visibility-audit', label: 'AI Visibility Audit (Free)' },
+                      { value: 'not-sure', label: 'Not sure — help me decide' },
+                    ].map(opt => (
+                      <option key={opt.value} value={opt.value} style={{ backgroundColor: '#0D1429', color: 'white' }}>
+                        {opt.label}
+                      </option>
+                    ))}
                   </select>
                 </div>
                 <div>
