@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -95,6 +96,7 @@ const personSchema = {
   jobTitle: 'SEO/GEO Consultant & AI Automation Specialist',
   description:
     'Ronnel Besagre is a GEO pioneer and AI Automation Specialist with 24+ years of APAC technology expertise, specializing in SEO, Generative Engine Optimization, AI Automation, AIDC systems, and NLP coaching.',
+  image: 'https://ronnelbesagre.com/ronnel-besagre.png',
   email: 'rbesagre@gmail.com',
   telephone: '+60174980981',
   address: { '@type': 'PostalAddress', addressLocality: 'Johor Bahru', addressCountry: 'MY' },
@@ -191,27 +193,67 @@ export default function AboutPage() {
 
       {/* CAREER TIMELINE */}
       <section className="section-padding" aria-labelledby="timeline-heading">
-        <div className="section-container max-w-3xl">
-          <p className="label-tag mb-3">Career Journey</p>
-          <h2 id="timeline-heading" className="font-syne font-bold text-3xl text-white mb-10">
-            24+ Years Across APAC
-          </h2>
-          <ol className="relative pl-6" style={{ borderLeft: '2px solid #1A2230' }}>
-            {timeline.map((item, i) => (
-              <li key={i} className="mb-8 relative last:mb-0">
+        <div className="section-container">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+
+            {/* Photo column */}
+            <div className="flex flex-col items-center lg:items-start">
+              <div className="relative w-full max-w-sm mx-auto lg:mx-0">
+                {/* Glow behind photo */}
                 <div
-                  className="absolute -left-[25px] w-3 h-3 rounded-full border-2 border-[#0A0E27] top-1"
-                  style={{ background: item.color }}
+                  className="absolute -inset-1 rounded-3xl blur-xl opacity-40 pointer-events-none"
+                  style={{ background: 'linear-gradient(135deg, #00A8FF, #00FF9D)' }}
                   aria-hidden="true"
                 />
-                <time className="text-xs font-semibold tracking-wider uppercase" style={{ color: item.color }}>
-                  {item.period}
-                </time>
-                <h3 className="font-syne font-bold text-white text-base mt-1">{item.role}</h3>
-                <p className="text-[#B0B8C8] text-sm">{item.org} · {item.location}</p>
-              </li>
-            ))}
-          </ol>
+                <div className="relative rounded-3xl overflow-hidden" style={{ border: '1px solid rgba(0,168,255,0.25)' }}>
+                  <Image
+                    src="/ronnel-besagre.png"
+                    alt="Ronnel Besagre — GEO/SEO Consultant & AI Automation Specialist, Johor Bahru Malaysia"
+                    width={480}
+                    height={640}
+                    className="w-full h-auto object-cover"
+                    priority
+                  />
+                </div>
+              </div>
+              {/* Caption under photo */}
+              <div className="mt-5 text-center lg:text-left max-w-sm mx-auto lg:mx-0">
+                <p className="font-syne font-bold text-white text-lg">Ronnel Besagre</p>
+                <p className="text-[#00A8FF] text-sm mt-0.5">GEO/SEO Consultant · AI Automation Specialist</p>
+                <p className="text-[#B0B8C8] text-xs mt-1">📍 Johor Bahru, Malaysia · Serving APAC</p>
+                <div className="flex flex-wrap gap-2 mt-3 justify-center lg:justify-start">
+                  {['24+ Yrs APAC', 'Triple NLP', '$5M+ Projects', '95%+ CSAT'].map(tag => (
+                    <span key={tag} className="label-tag text-xs px-2 py-1">{tag}</span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Timeline column */}
+            <div>
+              <p className="label-tag mb-3">Career Journey</p>
+              <h2 id="timeline-heading" className="font-syne font-bold text-3xl text-white mb-10">
+                24+ Years Across APAC
+              </h2>
+              <ol className="relative pl-6" style={{ borderLeft: '2px solid #1A2230' }}>
+                {timeline.map((item, i) => (
+                  <li key={i} className="mb-8 relative last:mb-0">
+                    <div
+                      className="absolute -left-[25px] w-3 h-3 rounded-full border-2 border-[#0A0E27] top-1"
+                      style={{ background: item.color }}
+                      aria-hidden="true"
+                    />
+                    <time className="text-xs font-semibold tracking-wider uppercase" style={{ color: item.color }}>
+                      {item.period}
+                    </time>
+                    <h3 className="font-syne font-bold text-white text-base mt-1">{item.role}</h3>
+                    <p className="text-[#B0B8C8] text-sm">{item.org} · {item.location}</p>
+                  </li>
+                ))}
+              </ol>
+            </div>
+
+          </div>
         </div>
       </section>
 
