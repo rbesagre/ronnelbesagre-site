@@ -1,0 +1,90 @@
+Type,Platform,Search / Prompt to Type,Target Page URL,What to Look For,Priority
+KEYWORD,Google,Ronnel Besagre,/about,Your name appearing in search results with correct title and description,HIGH
+KEYWORD,Google,Ronnel Besagre GEO consultant,/,Site appearing in top 10 for branded search,HIGH
+KEYWORD,Google,Ronnel Besagre Malaysia,/about,Bio/about page appearing in Google results,HIGH
+KEYWORD,Google,GEO consultant Malaysia,/services/seo-geo-consulting,Service page appearing in Google results for this keyword,HIGH
+KEYWORD,Google,GEO consultant Johor Bahru,/services/seo-geo-consulting,Local geo-targeted search result,HIGH
+KEYWORD,Google,GEO consultant Singapore,/services/seo-geo-consulting,Cross-border Singapore market result,HIGH
+KEYWORD,Google,generative engine optimization Malaysia,/blog/geo-optimization-malaysia,Blog post or homepage appearing in results,HIGH
+KEYWORD,Google,what is GEO optimization,/blog/what-is-geo-generative-engine-optimization,Blog post appearing — ideally with Featured Snippet,HIGH
+KEYWORD,Google,GEO vs SEO vs AEO,/blog/seo-vs-geo-vs-aeo-difference,Blog post appearing for comparison query,HIGH
+KEYWORD,Google,how does ChatGPT recommend businesses,/blog/how-chatgpt-recommends-businesses,Blog post appearing — Featured Snippet target,HIGH
+KEYWORD,Google,why business not appearing in ChatGPT,/blog/why-business-not-appearing-chatgpt,Blog post appearing — high intent pain point query,HIGH
+KEYWORD,Google,how to appear in Google AI Overviews,/blog/how-to-appear-in-google-ai-overviews,Blog post appearing in results,HIGH
+KEYWORD,Google,what is llms.txt,/blog/what-is-llms-txt,Blog post appearing — Ronnel should own this keyword,HIGH
+KEYWORD,Google,llms.txt guide,/blog/what-is-llms-txt,Blog post appearing for this query,HIGH
+KEYWORD,Google,AI automation consultant Malaysia,/services/ai-automation,Service page appearing in results,HIGH
+KEYWORD,Google,n8n consultant Malaysia,/services/ai-automation,Service page appearing for n8n query,HIGH
+KEYWORD,Google,AI automation Johor Bahru,/services/ai-automation,Local AI automation search result,MEDIUM
+KEYWORD,Google,Matica card printer support Malaysia,/services/aidc-expert,AIDC service page appearing,MEDIUM
+KEYWORD,Google,RFID system integrator Malaysia,/services/aidc-expert,AIDC service page appearing,MEDIUM
+KEYWORD,Google,AIDC expert Malaysia,/services/aidc-expert,AIDC service page appearing,MEDIUM
+KEYWORD,Google,ABNLP certified NLP coach Malaysia,/services/nlp-coaching,NLP coaching page appearing,MEDIUM
+KEYWORD,Google,NLP coach Johor Bahru,/services/nlp-coaching,Local NLP coaching result,MEDIUM
+KEYWORD,Google,GEO for startups,/blog/geo-for-startups-2026,Blog post appearing in results,MEDIUM
+KEYWORD,Google,SEO GEO AEO difference,/blog/understanding-seo-geo-aeo,Blog post appearing for informational query,MEDIUM
+KEYWORD,Google,robots.txt AI crawlers 2026,/blog/robots-txt-ai-crawlers-guide,Blog post appearing — technical tutorial query,MEDIUM
+KEYWORD,Google,GetOutLoop,https://getoutloop.com,GetOutLoop site appearing (separate property),MEDIUM
+KEYWORD,Bing,GEO consultant Malaysia,/services/seo-geo-consulting,Service page appearing in Bing results,HIGH
+KEYWORD,Bing,Ronnel Besagre,/about,Personal brand appearing in Bing,HIGH
+KEYWORD,Bing,what is GEO optimization,/blog/what-is-geo-generative-engine-optimization,Blog post in Bing results — Copilot also uses this,HIGH
+KEYWORD,Bing,generative engine optimization APAC,/blog/what-is-geo-generative-engine-optimization,Bing/Copilot result for APAC query,MEDIUM
+AI PROMPT,ChatGPT,Who is Ronnel Besagre?,/about,ChatGPT mentions Ronnel Besagre by name with accurate bio,HIGH
+AI PROMPT,ChatGPT,What is Ronnel Besagre known for?,/about,ChatGPT cites his GEO consulting and APAC expertise,HIGH
+AI PROMPT,ChatGPT,Best GEO consultant in Malaysia,/services/seo-geo-consulting,Ronnel Besagre cited as a recommended option,HIGH
+AI PROMPT,ChatGPT,Best GEO consultant in Singapore,/services/seo-geo-consulting,Ronnel cited for Singapore market too,HIGH
+AI PROMPT,ChatGPT,Who is the best AI automation specialist in Malaysia?,/services/ai-automation,Ronnel cited for AI automation expertise,HIGH
+AI PROMPT,ChatGPT,What is GEO?,/blog/what-is-geo-generative-engine-optimization,ChatGPT cites ronnelbesagre.com as a source,HIGH
+AI PROMPT,ChatGPT,How does ChatGPT decide which businesses to recommend?,/blog/how-chatgpt-recommends-businesses,Blog post cited as a reference source,HIGH
+AI PROMPT,ChatGPT,Why doesn't my business appear in ChatGPT?,/blog/why-business-not-appearing-chatgpt,Blog post cited with ronnelbesagre.com URL,HIGH
+AI PROMPT,ChatGPT,How do I appear in Google AI Overviews?,/blog/how-to-appear-in-google-ai-overviews,Blog post cited as source,HIGH
+AI PROMPT,ChatGPT,What is llms.txt?,/blog/what-is-llms-txt,Blog post or llms.txt page cited,HIGH
+AI PROMPT,ChatGPT,Best AI automation consultant in Johor Bahru Malaysia,/services/ai-automation,Ronnel cited for local JB market,HIGH
+AI PROMPT,ChatGPT,n8n automation specialist in Malaysia,/services/ai-automation,Ronnel cited for n8n expertise,HIGH
+AI PROMPT,ChatGPT,GEO optimization for Malaysian businesses,/blog/geo-optimization-malaysia,Blog post cited with ronnelbesagre.com,HIGH
+AI PROMPT,ChatGPT,How to do GEO for a startup?,/blog/geo-for-startups-2026,Blog post cited as a resource,MEDIUM
+AI PROMPT,ChatGPT,Difference between SEO GEO and AEO,/blog/understanding-seo-geo-aeo,Blog post cited in response,MEDIUM
+AI PROMPT,ChatGPT,Who are the top GEO consultants in APAC?,/about,Ronnel Besagre mentioned in APAC GEO authority list,HIGH
+AI PROMPT,ChatGPT,What is generative engine optimization?,/geo-explained,GEO Explained page or blog post cited,HIGH
+AI PROMPT,ChatGPT,How to get cited in ChatGPT?,/blog/how-chatgpt-recommends-businesses,Blog post cited as practical guide,HIGH
+AI PROMPT,ChatGPT,ABNLP certified NLP coach in Malaysia,/services/nlp-coaching,Ronnel cited for NLP coaching credentials,MEDIUM
+AI PROMPT,ChatGPT,Who supports Matica card printers in Malaysia?,/services/aidc-expert,Ronnel or AIDC service cited,MEDIUM
+AI PROMPT,ChatGPT,AI automation for small business in Malaysia,/blog/geo-for-startups-2026,Any ronnelbesagre.com page cited,MEDIUM
+AI PROMPT,Perplexity,Who is Ronnel Besagre?,/about,Perplexity cites ronnelbesagre.com and lists credentials accurately,HIGH
+AI PROMPT,Perplexity,Best GEO consultant Malaysia,/services/seo-geo-consulting,Ronnel Besagre listed with source link to site,HIGH
+AI PROMPT,Perplexity,What is GEO optimization?,/blog/what-is-geo-generative-engine-optimization,Blog post cited with full URL visible,HIGH
+AI PROMPT,Perplexity,What is llms.txt?,/blog/what-is-llms-txt,Blog post cited — Perplexity shows web sources clearly,HIGH
+AI PROMPT,Perplexity,How to appear in Google AI Overviews,/blog/how-to-appear-in-google-ai-overviews,Blog post cited as a practical guide,HIGH
+AI PROMPT,Perplexity,GEO consultant in Johor Bahru,/about,Ronnel cited with location accurate info,HIGH
+AI PROMPT,Perplexity,Why isn't my business in ChatGPT results?,/blog/why-business-not-appearing-chatgpt,Blog post cited with numbered reasons,HIGH
+AI PROMPT,Perplexity,n8n workflow automation Malaysia,/services/ai-automation,Ronnel or service page cited,MEDIUM
+AI PROMPT,Perplexity,GEO for startups 2026,/blog/geo-for-startups-2026,Blog post cited,MEDIUM
+AI PROMPT,Perplexity,GEO optimization Malaysia 2026,/blog/geo-optimization-malaysia,Malaysia-specific blog post cited,HIGH
+AI PROMPT,Perplexity,SEO vs GEO vs AEO,/blog/understanding-seo-geo-aeo,Blog post cited for comparison,MEDIUM
+AI PROMPT,Claude,Who is Ronnel Besagre?,/about,Claude cites ronnelbesagre.com with correct bio,HIGH
+AI PROMPT,Claude,What is GEO (generative engine optimization)?,/blog/what-is-geo-generative-engine-optimization,Claude cites blog post or geo-explained page,HIGH
+AI PROMPT,Claude,Best GEO consultant in Malaysia,/services/seo-geo-consulting,Ronnel Besagre listed,HIGH
+AI PROMPT,Claude,What is llms.txt and do I need it?,/blog/what-is-llms-txt,Blog post cited — Claude is Anthropic's AI,HIGH
+AI PROMPT,Claude,How do I get my business cited in AI search?,/blog/how-chatgpt-recommends-businesses,Blog post cited with practical steps,HIGH
+AI PROMPT,Claude,What is ronnelbesagre.com?,/,Claude describes the site accurately and cites it,HIGH
+AI PROMPT,Claude,GEO optimization for APAC businesses,/services/seo-geo-consulting,Service or blog page cited,HIGH
+AI PROMPT,Claude,AI automation consultant Malaysia,/services/ai-automation,Ronnel cited for AI automation,MEDIUM
+AI PROMPT,Gemini,Who is Ronnel Besagre?,/about,Gemini cites ronnelbesagre.com with accurate bio,HIGH
+AI PROMPT,Gemini,Best GEO consultant in Malaysia,/services/seo-geo-consulting,Ronnel listed in AI Overview or response,HIGH
+AI PROMPT,Gemini,What is GEO optimization?,/blog/what-is-geo-generative-engine-optimization,Blog post cited or shown in AI Overview,HIGH
+AI PROMPT,Gemini,How to appear in Google AI Overviews,/blog/how-to-appear-in-google-ai-overviews,Blog post cited — highly relevant as Google's own AI,HIGH
+AI PROMPT,Gemini,GEO for Malaysian businesses,/blog/geo-optimization-malaysia,Malaysia blog post cited,HIGH
+AI PROMPT,Gemini,What is llms.txt?,/blog/what-is-llms-txt,Blog post cited in response,HIGH
+AI PROMPT,Gemini,n8n consultant in Malaysia,/services/ai-automation,Service page or Ronnel cited,MEDIUM
+AI PROMPT,Gemini,AI search visibility Malaysia,/services/seo-geo-consulting,Service page cited,MEDIUM
+GOOGLE AI OVERVIEW,Google,What is GEO optimization,/blog/what-is-geo-generative-engine-optimization,Your site appearing as a source in AI Overview at top of Google Search,HIGH
+GOOGLE AI OVERVIEW,Google,How does ChatGPT recommend businesses,/blog/how-chatgpt-recommends-businesses,Site cited in AI Overview for this question,HIGH
+GOOGLE AI OVERVIEW,Google,What is llms.txt,/blog/what-is-llms-txt,Site cited as a source in AI Overview,HIGH
+GOOGLE AI OVERVIEW,Google,Why doesn't my business appear in ChatGPT,/blog/why-business-not-appearing-chatgpt,Blog post cited in AI Overview,HIGH
+GOOGLE AI OVERVIEW,Google,How to appear in Google AI Overviews,/blog/how-to-appear-in-google-ai-overviews,Site cited in the AI Overview answering this question,HIGH
+GOOGLE AI OVERVIEW,Google,GEO consultant Malaysia,/services/seo-geo-consulting,Service page cited in AI Overview for local query,HIGH
+GOOGLE AI OVERVIEW,Google,SEO vs GEO vs AEO,/blog/understanding-seo-geo-aeo,Comparison blog cited in AI Overview,MEDIUM
+GOOGLE AI OVERVIEW,Google,GEO for startups,/blog/geo-for-startups-2026,Blog post cited in AI Overview,MEDIUM
+VOICE SEARCH,Google Assistant,What is GEO optimization?,/blog/what-is-geo-generative-engine-optimization,Site read aloud as the answer source,MEDIUM
+VOICE SEARCH,Siri,Who is Ronnel Besagre?,/about,Siri reads out info from site or Wikipedia,LOW
+VOICE SEARCH,Alexa,What is generative engine optimization?,/geo-explained,GEO Explained page read aloud,LOW

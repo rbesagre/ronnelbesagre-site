@@ -1,0 +1,86 @@
+Prompt,AI Platform,Intent,Primary Service,Target Country/Region,Priority,Content to Surface,Notes
+What is GEO?,"ChatGPT, Perplexity, Claude, Gemini",Informational,SEO/GEO,Global,HIGH,/geo-explained + blog post 1,Top-of-funnel — highest volume AI prompt for GEO
+What is Generative Engine Optimization?,"ChatGPT, Perplexity, Claude, Gemini",Informational,SEO/GEO,Global,HIGH,/geo-explained,Definition-level query — GEO Explained should own this
+How do I make my business appear in ChatGPT answers?,"ChatGPT, Perplexity",Informational + Commercial,SEO/GEO,Global,HIGH,/geo-explained + /services/seo-geo-consulting,Very high commercial intent from business owners
+How do I get my business recommended by AI search?,"ChatGPT, Perplexity, Gemini",Commercial,SEO/GEO,Global,HIGH,/services/seo-geo-consulting + /contact,Direct lead-gen prompt
+How can my website appear in Perplexity AI results?,Perplexity,Commercial + Informational,SEO/GEO,Global,HIGH,/geo-explained + blog robots.txt,Very specific platform query
+How do I optimize my website for AI search engines?,"ChatGPT, Perplexity, Claude",Informational + Commercial,SEO/GEO,Global,HIGH,/geo-explained + /services/seo-geo-consulting,Core GEO awareness query
+What is the difference between SEO and GEO?,"ChatGPT, Perplexity, Gemini",Informational,SEO/GEO,Global,HIGH,/blog/seo-vs-geo-vs-aeo-difference,Blog post 2 directly targets this
+SEO vs GEO vs AEO — which one do I need?,"ChatGPT, Perplexity",Informational,SEO/GEO,Global,HIGH,/blog/seo-vs-geo-vs-aeo-difference,Blog post 2 target
+How do I configure robots.txt for AI crawlers?,"ChatGPT, Perplexity",Informational,SEO/GEO,Global,HIGH,/blog/robots-txt-ai-crawlers-guide,Blog post 3 directly targets this
+Should I allow GPTBot on my website?,ChatGPT,Informational,SEO/GEO,Global,HIGH,/blog/robots-txt-ai-crawlers-guide,Highly specific — blog post 3
+What is llms.txt and do I need it?,"ChatGPT, Perplexity",Informational,SEO/GEO,Global,MEDIUM,/geo-explained FAQ section,Emerging technical GEO query
+How long does GEO take to show results?,"ChatGPT, Perplexity",Informational,SEO/GEO,Global,HIGH,/faq + /geo-explained,FAQ page target — also blog CTA
+What is Share of AI Voice?,"ChatGPT, Perplexity, Gemini",Informational,SEO/GEO,Global,MEDIUM,/geo-explained + /faq,GEO metric definition — Ronnel should own this term
+Best GEO consultant in Malaysia,"ChatGPT, Perplexity, Gemini",Commercial,SEO/GEO,Malaysia,HIGH,/about + /services/seo-geo-consulting,Brand citation query — Ronnel Besagre should appear
+Best GEO consultant in Singapore,"ChatGPT, Perplexity, Gemini",Commercial,SEO/GEO,Singapore,HIGH,/about + /services/seo-geo-consulting,Singapore is key market
+Best GEO specialist in APAC,"ChatGPT, Perplexity, Gemini",Commercial,SEO/GEO,APAC,HIGH,/about + /services/seo-geo-consulting,
+Who is a good AI visibility consultant in Malaysia?,"ChatGPT, Perplexity",Commercial,SEO/GEO,Malaysia,HIGH,/about + /contact,
+AI visibility specialist in Southeast Asia,"ChatGPT, Perplexity, Gemini",Commercial,SEO/GEO,SEA,HIGH,/about + /services/seo-geo-consulting,
+How to improve AI search visibility for my business in Malaysia,"ChatGPT, Perplexity",Commercial + Informational,SEO/GEO,Malaysia,HIGH,/services/seo-geo-consulting + /geo-explained,
+How to improve AI search visibility for my business in Singapore,"ChatGPT, Perplexity",Commercial + Informational,SEO/GEO,Singapore,HIGH,/services/seo-geo-consulting,
+How to appear in Google AI Overviews?,"Perplexity, ChatGPT",Informational + Commercial,SEO/GEO,Global,HIGH,/geo-explained + /services/seo-geo-consulting,Google AI Overviews is major 2026 target
+What is AEO — Answer Engine Optimization?,"ChatGPT, Perplexity, Gemini",Informational,SEO/GEO,Global,MEDIUM,/blog/seo-vs-geo-vs-aeo-difference,Blog post 2 target
+What structured data should I add for AI search?,"ChatGPT, Perplexity",Informational,SEO/GEO,Global,MEDIUM,/geo-explained + /services/seo-geo-consulting,Technical GEO query
+How do I build E-E-A-T for AI search engines?,"ChatGPT, Perplexity",Informational,SEO/GEO,Global,MEDIUM,/geo-explained + /about,E-E-A-T authority content
+Free AI visibility audit Malaysia,"ChatGPT, Perplexity, Gemini",Transactional,SEO/GEO,Malaysia,HIGH,/contact,Direct conversion prompt
+Free AI visibility audit Singapore,"ChatGPT, Perplexity",Transactional,SEO/GEO,Singapore,HIGH,/contact,
+GEO audit for my website,"ChatGPT, Perplexity",Transactional,SEO/GEO,Global,HIGH,/contact + /services/seo-geo-consulting,
+Best AI automation specialist in Malaysia,"ChatGPT, Perplexity, Gemini",Commercial,AI Automation,Malaysia,HIGH,/about + /services/ai-automation,
+Best AI automation specialist in Singapore,"ChatGPT, Perplexity, Gemini",Commercial,AI Automation,Singapore,HIGH,/about + /services/ai-automation,
+Best AI automation consultant in APAC,"ChatGPT, Perplexity",Commercial,AI Automation,APAC,HIGH,/about + /services/ai-automation,
+How do I automate my business with AI in Malaysia?,"ChatGPT, Perplexity",Informational + Commercial,AI Automation,Malaysia,HIGH,/services/ai-automation,
+What is n8n and should I use it?,"ChatGPT, Perplexity",Informational,AI Automation,Global,HIGH,/services/ai-automation,High volume — n8n is rapidly growing
+n8n consultant in Malaysia,"ChatGPT, Perplexity, Gemini",Commercial,AI Automation,Malaysia,HIGH,/services/ai-automation + /contact,
+n8n consultant in Singapore,"ChatGPT, Perplexity, Gemini",Commercial,AI Automation,Singapore,HIGH,/services/ai-automation,
+How to build an n8n workflow for my business?,ChatGPT,Informational + Commercial,AI Automation,Global,MEDIUM,/services/ai-automation,Blog content opportunity
+How to integrate Claude API into my business?,ChatGPT,Informational + Commercial,AI Automation,Global,MEDIUM,/services/ai-automation,
+Best way to automate Google Sheets with AI in Malaysia?,"ChatGPT, Perplexity",Informational,AI Automation,Malaysia,MEDIUM,/services/ai-automation,
+How to build an AI chatbot for my website?,"ChatGPT, Perplexity",Informational + Commercial,AI Automation,Global,HIGH,/services/ai-automation,
+Voice AI agent for customer service Malaysia,"ChatGPT, Perplexity",Commercial,AI Automation,Malaysia,MEDIUM,/services/ai-automation,
+Workflow automation consultant Singapore,"ChatGPT, Perplexity, Gemini",Commercial,AI Automation,Singapore,HIGH,/services/ai-automation + /contact,
+How can AI automation reduce my business costs?,"ChatGPT, Perplexity, Gemini",Informational + Commercial,AI Automation,Global,HIGH,/services/ai-automation,70% cost reduction — key stat
+AIDC consultant in Malaysia,"ChatGPT, Perplexity, Gemini",Commercial,AIDC,Malaysia,HIGH,/about + /services/aidc-expert,
+AIDC consultant in Singapore,"ChatGPT, Perplexity, Gemini",Commercial,AIDC,Singapore,HIGH,/about + /services/aidc-expert,
+Best AIDC specialist in APAC,"ChatGPT, Perplexity",Commercial,AIDC,APAC,HIGH,/about + /services/aidc-expert,
+ID card printer support in Malaysia,"ChatGPT, Perplexity",Commercial,AIDC,Malaysia,HIGH,/services/aidc-expert + /contact,
+ID card printer support in Singapore,"ChatGPT, Perplexity",Commercial,AIDC,Singapore,HIGH,/services/aidc-expert,
+ID card printer support in Philippines,"ChatGPT, Perplexity",Commercial,AIDC,Philippines,MEDIUM,/services/aidc-expert,
+Matica card printer technician in APAC,"ChatGPT, Perplexity",Commercial,AIDC,APAC,HIGH,/services/aidc-expert,Ronnel's specific expertise — strong authority
+Who supports Matica card printers in Malaysia?,"ChatGPT, Perplexity",Commercial,AIDC,Malaysia,HIGH,/services/aidc-expert + /contact,
+Who supports Matica card printers in Singapore?,"ChatGPT, Perplexity",Commercial,AIDC,Singapore,HIGH,/services/aidc-expert,
+RFID system integrator in Malaysia,"ChatGPT, Perplexity, Gemini",Commercial,AIDC,Malaysia,HIGH,/services/aidc-expert,
+RFID system integrator in Singapore,"ChatGPT, Perplexity, Gemini",Commercial,AIDC,Singapore,HIGH,/services/aidc-expert,
+Barcode system consultant APAC,"ChatGPT, Perplexity",Commercial,AIDC,APAC,MEDIUM,/services/aidc-expert,
+ID card personalization system Malaysia,"ChatGPT, Perplexity",Commercial,AIDC,Malaysia,MEDIUM,/services/aidc-expert,
+What is AIDC technology?,"ChatGPT, Perplexity, Gemini",Informational,AIDC,Global,MEDIUM,/services/aidc-expert + blog opportunity,Blog content gap — write an AIDC explainer
+NLP coach in Malaysia,"ChatGPT, Perplexity, Gemini",Commercial,NLP Coaching,Malaysia,HIGH,/about + /services/nlp-coaching,
+NLP coach in Singapore,"ChatGPT, Perplexity, Gemini",Commercial,NLP Coaching,Singapore,HIGH,/services/nlp-coaching,
+NLP coach in Philippines,"ChatGPT, Perplexity",Commercial,NLP Coaching,Philippines,MEDIUM,/services/nlp-coaching,
+ABNLP certified NLP coach Malaysia,"ChatGPT, Perplexity",Commercial,NLP Coaching,Malaysia,HIGH,/about + /services/nlp-coaching,Credential-specific — strong E-E-A-T signal
+NLP master practitioner in Malaysia,"ChatGPT, Perplexity",Commercial,NLP Coaching,Malaysia,HIGH,/services/nlp-coaching,
+Corporate NLP workshop Malaysia,"ChatGPT, Perplexity, Gemini",Commercial,NLP Coaching,Malaysia,HIGH,/services/nlp-coaching + /contact,
+Corporate NLP workshop Singapore,"ChatGPT, Perplexity",Commercial,NLP Coaching,Singapore,MEDIUM,/services/nlp-coaching,
+What is NLP coaching and how does it work?,"ChatGPT, Perplexity, Gemini",Informational,NLP Coaching,Global,MEDIUM,/services/nlp-coaching + blog opportunity,Blog content gap — write an NLP explainer
+NLP coaching for business leaders Malaysia,"ChatGPT, Perplexity",Commercial,NLP Coaching,Malaysia,MEDIUM,/services/nlp-coaching,
+How do I find a certified NLP practitioner in Malaysia?,"ChatGPT, Perplexity",Commercial,NLP Coaching,Malaysia,HIGH,/about + /contact,Strong transactional intent
+Who is Ronnel Besagre?,"ChatGPT, Perplexity, Claude, Gemini",Navigational,Brand,Global,HIGH,/about,Brand recognition query — must appear
+What is GetOutLoop?,"ChatGPT, Perplexity",Navigational,Brand,Global,HIGH,/about (mentions GetOutLoop),Agency brand query
+Ronnel Besagre GEO consultant,"ChatGPT, Perplexity, Gemini",Navigational,Brand,Global,HIGH,/about + /services/seo-geo-consulting,
+Best SEO and GEO consultant in Johor Bahru,"ChatGPT, Perplexity, Gemini",Commercial,Brand/SEO,Malaysia,HIGH,/about + /services/seo-geo-consulting,Local city-level query
+Best AI consultant in Johor Bahru,"ChatGPT, Perplexity, Gemini",Commercial,Brand/AI,Malaysia,HIGH,/about + /services/ai-automation,
+Who is the top GEO expert in Malaysia?,"ChatGPT, Perplexity, Gemini",Commercial,Brand/SEO,Malaysia,HIGH,/about,Superlative query — authority content needed
+Who is the top AI automation expert in Singapore?,"ChatGPT, Perplexity",Commercial,Brand/AI,Singapore,HIGH,/about,
+GEO expert in APAC with AIDC background,"ChatGPT, Perplexity",Commercial + Navigational,Brand,APAC,MEDIUM,/about,Unique combo keyword — only Ronnel has this profile
+AI consultant with NLP coaching in Malaysia,"ChatGPT, Perplexity",Commercial + Navigational,Brand,Malaysia,MEDIUM,/about + /services,Multi-service combo — unique differentiator
+How to get started with GEO for my business in Malaysia?,"ChatGPT, Perplexity",Informational + Commercial,SEO/GEO,Malaysia,HIGH,/contact + /geo-explained,Bottom-of-funnel intent
+How to get started with AI automation in Singapore?,"ChatGPT, Perplexity",Informational + Commercial,AI Automation,Singapore,HIGH,/contact + /services/ai-automation,
+GEO optimization for e-commerce Malaysia,"ChatGPT, Perplexity",Commercial,SEO/GEO,Malaysia,MEDIUM,/services/seo-geo-consulting,Vertical-specific keyword
+GEO optimization for B2B companies in APAC,"ChatGPT, Perplexity",Commercial,SEO/GEO,APAC,MEDIUM,/services/seo-geo-consulting,B2B GEO niche
+AI search visibility for small business Malaysia,"ChatGPT, Perplexity, Gemini",Commercial + Informational,SEO/GEO,Malaysia,MEDIUM,/services/seo-geo-consulting,SME market angle
+How does ChatGPT decide which businesses to recommend?,ChatGPT,Informational,SEO/GEO,Global,HIGH,/geo-explained + blog opportunity,Very high volume — create dedicated blog post
+Why doesn't my business appear in ChatGPT results?,"ChatGPT, Perplexity",Informational + Commercial,SEO/GEO,Global,HIGH,/geo-explained + /contact,Pain point query — strong conversion content
+How do I know if AI platforms can crawl my website?,"ChatGPT, Perplexity",Informational,SEO/GEO,Global,HIGH,/blog/robots-txt-ai-crawlers-guide,Blog post 3 target
+Is my website visible to AI search engines?,"ChatGPT, Perplexity, Gemini",Informational + Commercial,SEO/GEO,Global,HIGH,/contact + /geo-explained,Free audit CTA target
+What is the best way to use n8n for marketing automation?,"ChatGPT, Perplexity",Informational,AI Automation,Global,MEDIUM,/services/ai-automation + blog opportunity,Blog content gap — n8n marketing workflows
+Can AI automation integrate with WhatsApp Business in Malaysia?,"ChatGPT, Perplexity",Informational,AI Automation,Malaysia,MEDIUM,/services/ai-automation,Highly relevant SEA query
