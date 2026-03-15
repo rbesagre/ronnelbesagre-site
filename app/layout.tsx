@@ -78,6 +78,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://ronnelbesagre.com',
   },
+  verification: {
+    google: 'WHLfB3Y-aOh6wwumBf-YPhw6pJqQFQfMuYuCRoF6BY4',
+  },
 }
 
 const personSchema = {
